@@ -39,7 +39,6 @@ const removeContact = async (contactId) => {
     if (!index) {
       throw new Error('Id incorect');
     }
-    //const filteredContacts = contacts.filter(item => item.id !== contactId)
     contacts.splice(index, 1)
     await updateContacts(contacts);
     return 'Delete'
