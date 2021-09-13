@@ -1,0 +1,28 @@
+{
+  "name": "node.js_hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivanka1991/node.js_hw.git"
+  },
+  "author": "Ivanna Buravetska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivanka1991/node.js_hw/issues"
+  },
+  "homepage": "https://github.com/Ivanka1991/node.js_hw#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "uuid": "^8.3.2"
+  }
+}
